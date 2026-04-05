@@ -30,48 +30,33 @@ export default function LandingPage() {
       <NavbarLayoutFloatingInline
       navItems={[
         {
-          name: "Home",
-          id: "home",
-        },
+          name: "Home",          id: "home"},
         {
-          name: "Services",
-          id: "services",
-        },
+          name: "Services",          id: "services"},
         {
-          name: "Why Us",
-          id: "why-us",
-        },
+          name: "Why Us",          id: "why-us"},
         {
-          name: "Contact",
-          id: "contact",
-        },
+          name: "Contact",          id: "contact"},
       ]}
       brandName="Mobi’s Mechanical"
       button={{
-        text: "Call Now",
-        href: "tel:0456899915",
-      }}
+        text: "Call Now",        href: "tel:0456899915"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardScroll
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Trusted Mechanics in Dandenong"
       description="Affordable, reliable mechanical and body repairs you can count on. From logbook servicing to emergency repairs, we keep Dandenong moving."
       buttons={[
         {
-          text: "Call Now",
-          href: "tel:0456899915",
-        },
+          text: "Call Now",          href: "tel:0456899915"},
         {
-          text: "Book a Service",
-          href: "#contact",
-        },
+          text: "Book a Service",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg?_wi=1"
+      imageSrc="http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg"
       imageAlt="Professional mechanic working on a vehicle"
     />
   </div>
@@ -83,44 +68,19 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Logbook Servicing",
-          description: "Ensure your manufacturer warranty remains valid with our logbook-standard servicing.",
-          bentoComponent: "reveal-icon",
-          icon: Wrench,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg?_wi=2",
-          imageAlt: "professional car repair workshop interior",
+          title: "Logbook Servicing",          description: "Ensure your manufacturer warranty remains valid with our logbook-standard servicing.",          bentoComponent: "reveal-icon",          icon: Wrench
         },
         {
-          title: "General Repairs",
-          description: "From brakes and suspension to engine tuning, we fix it all right the first time.",
-          bentoComponent: "reveal-icon",
-          icon: Settings,
-          imageSrc: "http://img.b2bpic.net/free-photo/car-mechanic-using-laptop-while-running-engine-diagnostic-repair-shop_637285-11553.jpg",
-          imageAlt: "car engine maintenance repair shop",
+          title: "General Repairs",          description: "From brakes and suspension to engine tuning, we fix it all right the first time.",          bentoComponent: "reveal-icon",          icon: Settings
         },
         {
-          title: "Body Repairs",
-          description: "Professional bodywork restoration for dents, scratches, and collision damage repairs.",
-          bentoComponent: "reveal-icon",
-          icon: Car,
-          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg?_wi=1",
-          imageAlt: "happy car owner at repair shop",
+          title: "Body Repairs",          description: "Professional bodywork restoration for dents, scratches, and collision damage repairs.",          bentoComponent: "reveal-icon",          icon: Car
         },
         {
-          title: "Diagnostics",
-          description: "State-of-the-art diagnostic tools to identify and resolve complex vehicle issues quickly.",
-          bentoComponent: "reveal-icon",
-          icon: Search,
-          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg?_wi=1",
-          imageAlt: "satisfied customer auto shop",
+          title: "Diagnostics",          description: "State-of-the-art diagnostic tools to identify and resolve complex vehicle issues quickly.",          bentoComponent: "reveal-icon",          icon: Search
         },
         {
-          title: "Emergency Repairs",
-          description: "Rapid response for breakdowns and critical issues so you're not left stranded.",
-          bentoComponent: "reveal-icon",
-          icon: Zap,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg?_wi=1",
-          imageAlt: "customer at automotive shop",
+          title: "Emergency Repairs",          description: "Rapid response for breakdowns and critical issues so you're not left stranded.",          bentoComponent: "reveal-icon",          icon: Zap
         },
       ]}
       title="Our Expert Services"
@@ -133,30 +93,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",
-          name: "Sarah J.",
-          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg?_wi=2",
-        },
+          id: "1",          name: "Sarah J.",          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg"},
         {
-          id: "2",
-          name: "Michael B.",
-          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg?_wi=2",
-        },
+          id: "2",          name: "Michael B.",          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg"},
         {
-          id: "3",
-          name: "David L.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg?_wi=2",
-        },
+          id: "3",          name: "David L.",          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg"},
         {
-          id: "4",
-          name: "Jessica M.",
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-customer-interaction-with-mechanic_1170-1431.jpg",
-        },
+          id: "4",          name: "Jessica M.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-customer-interaction-with-mechanic_1170-1431.jpg"},
         {
-          id: "5",
-          name: "Robert T.",
-          imageSrc: "http://img.b2bpic.net/free-photo/displeased-woman-having-argument-with-her-husband-about-car-repair-workshop_637285-7728.jpg",
-        },
+          id: "5",          name: "Robert T.",          imageSrc: "http://img.b2bpic.net/free-photo/displeased-woman-having-argument-with-her-husband-about-car-repair-workshop_637285-7728.jpg"},
       ]}
       cardTitle="4.0 stars from 171 reviews"
       cardTag="Trusted by Locals"
@@ -166,6 +111,9 @@ export default function LandingPage() {
 
   <div id="blog" data-section="blog">
       <BlogCardOne
+      blogs={[]}
+      title="Latest Automotive News"
+      description="Stay updated with our latest expert tips and automotive trends."
       animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
@@ -176,8 +124,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Get In Touch"
       title="Book Your Service Now"
       description="Ready to get back on the road? Call us today at 0456 899 915 or send us a booking request and our expert team will get in touch."
@@ -193,33 +140,21 @@ export default function LandingPage() {
         {
           items: [
             {
-              label: "Services",
-              href: "#services",
-            },
+              label: "Services",              href: "#services"},
             {
-              label: "About Us",
-              href: "#why-us",
-            },
+              label: "About Us",              href: "#why-us"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
         {
           items: [
             {
-              label: "Unit 2/11 Egan Rd",
-              href: "#",
-            },
+              label: "Unit 2/11 Egan Rd",              href: "#"},
             {
-              label: "Dandenong VIC 3175",
-              href: "#",
-            },
+              label: "Dandenong VIC 3175",              href: "#"},
             {
-              label: "Phone: 0456 899 915",
-              href: "tel:0456899915",
-            },
+              label: "Phone: 0456 899 915",              href: "tel:0456899915"},
           ],
         },
       ]}
