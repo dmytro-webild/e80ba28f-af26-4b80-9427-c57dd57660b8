@@ -71,7 +71,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg?_wi=1"
       imageAlt="Professional mechanic working on a vehicle"
     />
   </div>
@@ -87,7 +87,7 @@ export default function LandingPage() {
           description: "Ensure your manufacturer warranty remains valid with our logbook-standard servicing.",
           bentoComponent: "reveal-icon",
           icon: Wrench,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-mechanic-relaxing-taking-break-from-work-auto-repair-shop_637285-9753.jpg?_wi=2",
           imageAlt: "professional car repair workshop interior",
         },
         {
@@ -103,7 +103,7 @@ export default function LandingPage() {
           description: "Professional bodywork restoration for dents, scratches, and collision damage repairs.",
           bentoComponent: "reveal-icon",
           icon: Car,
-          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg?_wi=1",
           imageAlt: "happy car owner at repair shop",
         },
         {
@@ -111,7 +111,7 @@ export default function LandingPage() {
           description: "State-of-the-art diagnostic tools to identify and resolve complex vehicle issues quickly.",
           bentoComponent: "reveal-icon",
           icon: Search,
-          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg?_wi=1",
           imageAlt: "satisfied customer auto shop",
         },
         {
@@ -119,7 +119,7 @@ export default function LandingPage() {
           description: "Rapid response for breakdowns and critical issues so you're not left stranded.",
           bentoComponent: "reveal-icon",
           icon: Zap,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg?_wi=1",
           imageAlt: "customer at automotive shop",
         },
       ]}
@@ -135,17 +135,17 @@ export default function LandingPage() {
         {
           id: "1",
           name: "Sarah J.",
-          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/family-car-salon-woman-buying-car-little-african-girl-with-mther_1157-45045.jpg?_wi=2",
         },
         {
           id: "2",
           name: "Michael B.",
-          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/dealership-agent-talking-with-client-gain-insights-into-what-might-sway-him_482257-124075.jpg?_wi=2",
         },
         {
           id: "3",
           name: "David L.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-side-portrait-happy-man-driving-car_158595-4182.jpg?_wi=2",
         },
         {
           id: "4",
